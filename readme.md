@@ -120,5 +120,5 @@ Here’s an example of what your `/etc/logrotate.d/myapplog` file might look lik
 ## Conclusion
 
 By following these steps, you can set up log rotation on a Linux server to rotate logs every hour, compress them into `.gz` files, and maintain up to 5 compressed log files. This setup helps manage log file sizes and ensures that old log data is systematically archived and rotated out. Regular monitoring and adjustments will help keep your log management efficient and effective.
-```
+
 
