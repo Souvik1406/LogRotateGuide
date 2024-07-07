@@ -1,15 +1,6 @@
-```markdown
-# Log Rotation Setup for Linux Server
+# Step-by-Step Guide for Log Rotation
 
-This repository provides a detailed guide and configuration for setting up log rotation on a Linux server to rotate logs every hour, compress them into `.gz` files, and maintain up to 5 compressed log files.
-
-## Prerequisites
-
-Ensure you have the necessary permissions to install packages and edit configuration files on your Linux server.
-
-## Step-by-Step Guide
-
-### Step 1: Install Required Tools
+## Step 1: Install Required Tools
 
 Ensure the `logrotate` tool is installed on your system. If it's not already installed, you can install it using the following commands:
 
@@ -18,7 +9,7 @@ sudo apt-get update
 sudo apt-get install logrotate
 ```
 
-### Step 2: Configure Logrotate
+## Step 2: Configure Logrotate
 
 1. **Create/Edit Logrotate Configuration File**
 
